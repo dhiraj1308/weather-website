@@ -37,7 +37,7 @@ const inputRef = useRef()
             return;
         }
         try {
-            const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=${import.meta.env.VITE_APP_ID}`;
+            const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=440ca2545da9375a5adcdb1613459bf7`;
 
             const response = await fetch(url);
             const data = await response.json();
